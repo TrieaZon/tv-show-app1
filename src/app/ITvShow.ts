@@ -5,4 +5,5 @@ export interface ITvShow {
   status: string
   rating: number
   summary: string
+  premiere: Date /*keep?*/
 }
