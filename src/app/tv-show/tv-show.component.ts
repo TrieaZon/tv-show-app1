@@ -1,18 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {ITvShow} from '../ITvShow';
+// import { TvShowService } from '../tv-show.service';
 
 @Component({
   selector: 'app-tv-show',
   templateUrl: './tv-show.component.html',
   styleUrls: ['./tv-show.component.css']
 })
+
+
 export class TvShowComponent {
-  current: ITvShow = {
-    title: "New Girl",
-    image: "picture here",
-    genres: "Comedy",
-    status: "ended",
-    rating: 3.4,
-    summary: "Quirky gal moves in several roommates, silliness ensues"
+  @Input() current: ITvShow = {
+    title: '',
+    image: '',
+    genres: '',
+    status:  '',
+    rating: 0,
+    summary: '',
   }
+
+  // constructor(private tvshowService: TvShowService){
+
+  //   this.tvshowService.getCurrentTvShow().subscribe(data => this.current = data)
+
+  // }
+
+
 }

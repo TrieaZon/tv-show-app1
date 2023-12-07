@@ -1,0 +1,27 @@
+.body{
+  background-color: #F0FFFF;
+  font-family:  'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+
+header, h1{
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+mat-card-title {
+  font-size: 1.5rem;
+  margin-bottom: .75rem;;
+}
+
+
+.container > mat-card {
+  margin: 1rem;
+  padding: 2rem;
+}
+

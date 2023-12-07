@@ -1,9 +1,11 @@
 export interface ITvShow {
   title: string
-  image: string
   genres: string
   status: string
   rating: number
+  image: string
   summary: string
-  premiere: Date /*keep?*/
 }
+
+
+//model
