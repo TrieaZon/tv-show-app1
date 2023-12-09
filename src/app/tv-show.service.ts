@@ -23,7 +23,7 @@ export class TvShowService {
       genres: data.genres[0],
       status: data.status,
       rating: data.rating.average,
-      image: data.image.medium,
+      medium: data.image.medium,
       summary: data.summary,
     }
   }

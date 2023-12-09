@@ -1,18 +1,10 @@
-<div>
-  <span>Title: {{ current.title }}</span>
+<div class="container pic">
+  <img src="{{ current.medium }}" alt="picture of tv show" />
 </div>
-<div>
-  <span>Image: {{ current.image }}</span>
-</div>
-<div>
-  <p>About: {{ current.summary }}</p>
-</div>
-<div>
-  <span>Genre: {{ current.genres }}</span>
-</div>
-<div>
-  <span>Status: {{ current.status }}</span>
-</div>
-<div>
-  <span>Rating: {{ current.rating }}</span>
+<div class="container textinfo">
+  <div>Show: {{ current.title }}</div>
+  <div>About: {{ current.summary }}</div>
+  <div>Genre: {{ current.genres }}</div>
+  <div>Status: {{ current.status }}</div>
+  <div>Rating: {{ current.rating }}</div>
 </div>

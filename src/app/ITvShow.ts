@@ -3,7 +3,7 @@ export interface ITvShow {
   genres: string
   status: string
   rating: number
-  image: string
+  medium: string
   summary: string
 }
 

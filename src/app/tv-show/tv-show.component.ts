@@ -12,7 +12,7 @@ import {ITvShow} from '../ITvShow';
 export class TvShowComponent {
   @Input() current: ITvShow = {
     title: '',
-    image: '',
+    medium: '',
     genres: '',
     status:  '',
     rating: 0,

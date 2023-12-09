@@ -12,7 +12,7 @@ export class AppComponent {
 
   currentTvShow: ITvShow = {
     title: '',
-    image: '',
+    medium: '',
     genres: '',
     status:  '',
     rating: 0,
