@@ -5,40 +5,25 @@
 <div>
   <div class="container">
     <mat-card>
-      <mat-card-header
-        ><mat-card-title>Search:</mat-card-title></mat-card-header
-      >
+      <mat-card-header>
+        <mat-card-title>Search:</mat-card-title>
+      </mat-card-header>
       <mat-card-content>
         <app-searchtv (searchEvent)="doSearch($event)"></app-searchtv>
       </mat-card-content>
     </mat-card>
   </div>
-  <div class="header">
-    <h1>TV Shows</h1>
-  </div>
-  
-  <div>
-    <div class="container">
-      <mat-card>
-        <mat-card-header
-          ><mat-card-title>Search:</mat-card-title></mat-card-header
-        >
-        <mat-card-content>
-          <app-searchtv (searchEvent)="doSearch($event)"></app-searchtv>
-        </mat-card-content>
-      </mat-card>
-    </div>
-    <div class="container">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>Results for:</mat-card-title>
-          
-          <span>{{currentTvShow.title}}</span>
+  <div class="container">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Results for:</mat-card-title>
         
-        </mat-card-header>
-        <mat-card-content>
-          <app-tv-show [current]="currentTvShow"></app-tv-show>
-        </mat-card-content>
-      </mat-card>
-    </div>
+        <span>{{currentTvShow.title}}</span>
+      
+      </mat-card-header>
+      <mat-card-content>
+        <app-tv-show [current]="currentTvShow"></app-tv-show>
+      </mat-card-content>
+    </mat-card>
   </div>
+</div>
