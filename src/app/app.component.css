@@ -1,0 +1,45 @@
+.body{
+  background-color: #aab4b2;
+  font-family:  'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+
+.header{
+  text-align: center;
+  background: #50cab3;
+  color: white;
+  margin-bottom: 2rem 0;
+  border: solid #50cab3 60%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1.5rem;;
+}
+
+span {
+  margin: -1px 3px;
+  font-size: x-large;
+}
+
+mat-card-title {
+  display:block;
+  font-size: 1.5rem;
+  margin-bottom: .75rem;;
+}
+
+mat-card{
+  border: solid #e5f7f4;
+  border-style: outset;
+  border-width: 2px 5px 5px 2px;
+
+}
+
+.container > mat-card {
+  margin: 1rem;
+  padding: 1rem;
+}
+
